@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class EtudiantTest {
+class EtudiantTest {
 
     @Test
-    public void testAjouterEvaluationEtCalculerMoyenneGenerale() {
+    void testAjouterEvaluationEtCalculerMoyenneGenerale() {
         Etudiant etudiant = new Etudiant("Alice", 2024);
         Matiere matiereMaths = new Matiere("MAT101", "Mathématiques");
         Matiere matierePhysique = new Matiere("PHY101", "Physique");
