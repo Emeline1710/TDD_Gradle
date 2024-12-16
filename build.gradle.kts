@@ -40,3 +40,7 @@ tasks.jacocoTestReport {
         html.required.set(true)
     }
 }
+
+tasks.build {
+    dependsOn(tasks.jacocoTestReport)
+}
