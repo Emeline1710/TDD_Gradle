@@ -27,7 +27,7 @@ sonarqube  {
         property("sonar.projectName", "TDD")
         property("sonar.sources", "src/main/java")
         property("sonar.host.url", "http://localhost:9000")
-        property("sonar.token", "sqp_e2a473561da488b963f8d0ea5aaa6e9cc33e97c0")
+        property("sonar.token", "sqp_c8dd8750bb8e7a5f84633fbd653c294a7384c050")
         property("sonar.java.binaries", file("build/classes"))
     }
 }
